@@ -1,9 +1,16 @@
 public class Person {
-
-
         private String name;
         private int age;
+        private int weight;
 
+        private String skincolor;
+
+
+        private boolean tatoos;
+
+        private String hairColor;
+
+        private String eyeColor;
 
         public Person() {
                 this.name = "";
@@ -38,7 +45,49 @@ public class Person {
                 public Integer getAge() {
                         return age;
                 }
+
+        public int getWeight() {
+                return weight;
         }
+
+        public void setWeight(int weight) {
+                this.weight = weight;
+        }
+
+        public String getSkincolor() {
+                return skincolor;
+        }
+
+        public void setSkincolor(String skincolor) {
+                this.skincolor = skincolor;
+        }
+
+        public boolean getTatoos() {
+                return tatoos;
+        }
+
+        public void setTatoos(boolean tatoos) {
+                this.tatoos = tatoos;
+        }
+
+        public String getHairColor() {
+                return hairColor;
+        }
+
+        public void setHairColor(String hairColor) {
+                this.hairColor = hairColor;
+        }
+
+        public String getEyeColor() {
+                return eyeColor;
+        }
+
+        public void setEyeColor(String eyeColor) {
+                this.eyeColor = eyeColor;
+        }
+        
+}
+
 
 
 
